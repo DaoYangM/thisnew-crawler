@@ -1,0 +1,32 @@
+2019-09-29 14:10:39,758 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 14:12:25,226 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 14:12:26,475 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-09-29 14:12:27,564 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-09-29 14:12:28,488 - root - INFO -   rating: 5  page_num: 3, review_list: 30
+2019-09-29 14:12:28,488 - root - INFO - 230
+2019-09-29 14:12:43,457 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 14:12:44,724 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-09-29 14:12:45,854 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-09-29 14:12:46,717 - root - INFO -   rating: 5  page_num: 3, review_list: 30
+2019-09-29 14:12:46,717 - root - INFO - 230
+2019-09-29 14:29:46,405 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 14:29:47,483 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-09-29 14:29:48,547 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-09-29 14:29:49,476 - root - INFO -   rating: 5  page_num: 3, review_list: 30
+2019-09-29 14:29:49,476 - root - INFO - 230
+2019-09-29 14:40:39,225 - root - ERROR - Getting product error product url: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&style=16x16
+NoneType: None
+2019-09-29 14:42:04,442 - root - ERROR - Getting product error product url: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&style=16x16
+NoneType: None
+2019-09-29 14:44:25,026 - root - ERROR - Getting product error product url: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&style=16x16
+NoneType: None
+2019-09-29 14:46:28,077 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 14:46:29,322 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-09-29 14:46:30,372 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-09-29 14:46:31,306 - root - INFO -   rating: 5  page_num: 3, review_list: 30
+2019-09-29 14:46:31,307 - root - INFO - 230
+2019-09-29 15:00:28,261 - root - INFO - [ZAZZLE] product_type: mojo_throwpillow, root_product_id: 0, ratings: [5, 4, 3, 2, 1], review_count: 230
+2019-09-29 15:00:29,563 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-09-29 15:00:30,590 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-09-29 15:00:31,556 - root - INFO -   rating: 5  page_num: 3, review_list: 30
+2019-09-29 15:00:31,556 - root - INFO - 230
