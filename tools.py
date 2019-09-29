@@ -6,7 +6,7 @@ from enum import Enum
 
 import requests
 
-from config import LOG_FILENAME, LOG_PATH
+from config import LOG_PATH
 from error import RequestError
 
 ZAZZLE_PATTERN = re.compile('zazzle', flags=re.I)
@@ -50,6 +50,7 @@ def request_resolver(url, params=None, header=None, cookies=None):
         url: 请求url
         params: 请求参数
         header: 请求头
+        cookies: cookies
     Returns:
         response对象
     Raises:
