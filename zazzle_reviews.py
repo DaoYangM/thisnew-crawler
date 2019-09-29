@@ -40,7 +40,7 @@ class ZazzleProduct:
 
         self.product_url = product_url
 
-    def get_product_type_and_root_product_id(self):
+    def get_review_api_params(self):
         """
         通过product_url 获得product_type 和 root_product_id
         这些都是zazzle review api 所必要的参数
@@ -185,7 +185,7 @@ class ZazzleReviewCrawler:
 
         product = ZazzleProduct(self.__product_url)
         try:
-            product_type, product_id = product.get_product_type_and_root_product_id()
+            product_type, product_id = product.get_review_api_params()
             logging.info(
                 '[ZAZZLE] product_type: ' + product_type + ', root_product_id: ' + product_id + ', ratings: ' + str(
                     self.__ratings) + ", review_count: " + str(self.__review_counts))

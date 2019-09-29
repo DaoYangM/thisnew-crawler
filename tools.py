@@ -16,8 +16,9 @@ VISTA_PATTERN = re.compile('vista', flags=re.I)
 RETRY_COUNT = 3
 
 # 初始化日志对象
-logging.basicConfig(filename=LOG_FILENAME, filemode='a', level=logging.INFO,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# logging.basicConfig(filename=LOG_FILENAME, filemode='a', level=logging.INFO,
+#                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
 class CrawlerStatus(Enum):
@@ -42,7 +43,7 @@ class CrawlerType(Enum):
     VISTA = 2
 
 
-def request_resolver(url, params=None, header=None):
+def request_resolver(url, params=None, header=None, cookies=None):
     """
     request请求封装, 请求如果失败将会重试 RETRY_COUNT 次
     Args:
@@ -60,7 +61,8 @@ def request_resolver(url, params=None, header=None):
         try:
             response = requests.get(url, params=params, headers=header,
                                     proxies={'http': 'socks5://127.0.0.1:1080',
-                                             'https': 'socks5://127.0.0.1:1080'})
+                                             'https': 'socks5://127.0.0.1:1080'},
+                                    cookies=cookies)
             if response.ok:
                 return response
             else:

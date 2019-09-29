@@ -30,3 +30,471 @@ NoneType: None
 2019-09-29 15:00:30,590 - root - INFO -   rating: 5  page_num: 2, review_list: 100
 2019-09-29 15:00:31,556 - root - INFO -   rating: 5  page_num: 3, review_list: 30
 2019-09-29 15:00:31,556 - root - INFO - 230
+2019-09-29 16:17:10,757 - root - ERROR - request error 0 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:10,762 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:10,763 - root - ERROR - request error 1 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:10,764 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:10,765 - root - ERROR - request error 2 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:10,765 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,611 - root - ERROR - request error 0 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,613 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,614 - root - ERROR - request error 1 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,614 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,616 - root - ERROR - request error 2 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:17:25,616 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:06,203 - root - ERROR - request error 0 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:07,023 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:12,828 - root - ERROR - request error 1 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:13,024 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:14,909 - root - ERROR - request error 2 times url: https://www.vistaprint.com/signs-posters/foam-board-signs
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-09-29 16:19:15,111 - root - ERROR - Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 941, in check_header_validity
+    if not pat.match(value):
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/tools.py", line 63, in request_resolver
+    'https': 'socks5://127.0.0.1:1080'})
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 314, in prepare
+    self.prepare_headers(headers)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/models.py", line 448, in prepare_headers
+    check_header_validity(header)
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
+    "bytes, not %s" % (name, value, type(value)))
+requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
