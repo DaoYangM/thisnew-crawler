@@ -1,0 +1,8 @@
+HOST = '10.101.10.203'
+PORT = 3306
+USERNAME = 'thisnew'
+PASSWORD = 'thisnew2019'
+DB = 'ThisNew_EMERGENCY'
+CHARSET = 'utf8mb4'
+
+CRAWLER_ID = 53
