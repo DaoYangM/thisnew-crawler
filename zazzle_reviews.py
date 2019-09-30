@@ -3,8 +3,6 @@ import datetime
 import re
 import json
 
-from database import CrawlerDB
-from error import RequestError, ReviewListError
 from tools import review_resolver, Review, get_logging, CrawlerType, request_resolver
 
 # zazzle每次最多获取100条评论
@@ -54,7 +52,11 @@ class ZazzleProduct:
         pattern = re.compile(ZAZZLE_REGEX)
         match = re.search(pattern, response.text)
         if match:
-            return match.group(1), match.group(2)
+            product_type = match.group(1)
+            product_id = match.group(2)
+            logging.info(
+                '{ZAZZLE API PARAMS} -> [product_type]: ' + product_type + ', [root_product_id]: ' + product_id)
+            return ZazzleReviewApiParams(product_type, product_id)
         else:
             logging.error(
                 'Getting product error product url: ' + self.product_url,
@@ -62,11 +64,7 @@ class ZazzleProduct:
             )
 
 
-class ZazzleReview:
-    """
-    获取zazzle评论
-    """
-
+class ZazzleReviewApiParams:
     def __init__(self, zazzle_product_type, root_product_id):
         """
         init
@@ -75,6 +73,25 @@ class ZazzleReview:
             root_product_id: zazzle根商品id
         """
 
+        self.__product_type = zazzle_product_type
+        self.__root_product_id = root_product_id
+
+    def get_params(self):
+        return self.__product_type, self.__root_product_id
+
+
+class ZazzleReview:
+    """
+    获取zazzle评论
+    """
+
+    def __init__(self, zazzle_review_api_params):
+        """
+        init
+        Args:
+            zazzle_review_api_params: zazzle 评论api所需参数 ZazzleReviewApiParams
+        """
+        zazzle_product_type, root_product_id = zazzle_review_api_params.get_params()
         self.__product_type = zazzle_product_type
         self.__root_product_id = root_product_id
 
@@ -160,57 +177,3 @@ class ZazzleReview:
                 exc_info=True
             )
             raise
-
-
-class ZazzleReviewCrawler:
-    def __init__(self, product_url, review_counts, task_id, ratings, this_new_product_ids):
-        """
-        init
-        Args:
-            product_url: 商品url
-            review_counts: 总共需要多少评论
-            task_id: oc_review_catch_task 主键
-            ratings: 评分星级list [5, 4 ,3, 2, 1]
-            this_new_product_ids: thisnew的商品id list
-        """
-        self.__product_url = product_url
-        self.__review_counts = review_counts
-        self.__task_id = task_id
-        self.__ratings = ratings
-        self.__ratings.sort(reverse=True)
-        self.__this_new_product_ids = this_new_product_ids
-
-    def get_reviews(self):
-        """调度方法"""
-
-        product = ZazzleProduct(self.__product_url)
-        try:
-            product_type, product_id = product.get_review_api_params()
-            logging.info(
-                '[ZAZZLE] product_type: ' + product_type + ', root_product_id: ' + product_id + ', ratings: ' + str(
-                    self.__ratings) + ", review_count: " + str(self.__review_counts))
-
-            review_list = list()
-
-            for rating in self.__ratings:
-                if len(review_list) < self.__review_counts:
-                    zazzle_review = ZazzleReview(product_type, product_id)
-                    review_list.extend(
-                        zazzle_review.get_reviews(rating=rating,
-                                                  review_counts=self.__review_counts - len(review_list)))
-
-            logging.info(len(review_list))
-            if len(review_list) > len(self.__this_new_product_ids):
-                CrawlerDB.insert_reviews(review_list=review_list, thisnew_product_ids=self.__this_new_product_ids)
-                CrawlerDB.update_crawler_status_success(self.__task_id)
-            else:
-                raise ReviewListError("review list less than thisnew product ids")
-
-        except (RequestError, ReviewListError):
-            CrawlerDB.update_crawler_status_fail(self.__task_id)
-
-
-if __name__ == '__main__':
-    ZazzleReviewCrawler(
-        product_url='https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&style=16x16',
-        review_counts=230, task_id=1, ratings=[5, 4, 3, 2, 1], this_new_product_ids=[110, 54]).get_reviews()
