@@ -1,3 +1,8 @@
+import json
+
+import redis
+
+from config import REDIS_ADDR, REDIS_PORT, REDIS_CRAWLER_KEY
 from database import CrawlerDB
 from error import RequestError, ReviewListError
 
@@ -30,6 +35,8 @@ class ReviewCrawler:
         self.__this_new_product_ids = this_new_product_ids
 
     def get_reviews(self):
+        """调度方法"""
+
         logging.info(' [crawler_type]: ' + str(
             self.__crawler_type) + ', [product_url]: ' + str(self.__product_url) + ', [review_counts]: ' + str(
             self.__review_counts)
@@ -43,23 +50,37 @@ class ReviewCrawler:
             self.__get_reviews(VistaProduct, VistaReview)
 
     def __get_reviews(self, type_product_cls, type_review_cls):
-        """调度方法"""
+        """
+        真实调用方法
+        Args:
+            type_product_cls: Product类ZazzleProduct, VistaProduct
+            type_review_cls: Review类ZazzleReview, VistaReview
+        """
 
+        # 初始化product
         product = type_product_cls(self.__product_url)
+
+        # 通过商品页, 获得api请求参数
         review_api_params = product.get_review_api_params()
 
+        # 上一步拿到的参数, 初始化review对象
         type_review = type_review_cls(review_api_params)
 
         try:
             review_list = list()
 
             for rating in self.__ratings:
+
+                # 如果爬到的评论数量小于要求的数量
                 if len(review_list) < self.__review_counts:
+                    # 获取评论
                     review_list.extend(
                         type_review.get_reviews(rating=rating,
                                                 review_counts=self.__review_counts - len(review_list)))
 
             logging.info('total reviews count: ' + str(len(review_list)))
+
+            # 如果爬到的数量大于this_new_product_ids的长度, 分段插入数据库
             if len(review_list) > len(self.__this_new_product_ids):
                 CrawlerDB.insert_reviews(review_list=review_list, thisnew_product_ids=self.__this_new_product_ids)
                 CrawlerDB.update_crawler_status_success(self.__task_id)
@@ -71,12 +92,27 @@ class ReviewCrawler:
 
 
 if __name__ == '__main__':
-    ReviewCrawler(
-        product_url='https://www.vistaprint.com/signs-posters/foam-board-signs',
-        review_counts=98, task_id=1, crawler_type=CrawlerType.VISTA, ratings=[5, 4, 3, 2, 1],
-        this_new_product_ids=[110, 54]).get_reviews()
 
-    ReviewCrawler(
-        product_url='https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&style=16x16',
-        review_counts=230, task_id=1, crawler_type=CrawlerType.ZAZZLE, ratings=[5, 4, 3, 2, 1],
-        this_new_product_ids=[110, 54]).get_reviews()
+    r = redis.Redis(host=REDIS_ADDR, port=REDIS_PORT)
+
+    while r.llen(REDIS_CRAWLER_KEY) > 0:
+        pop_task = r.lpop(REDIS_CRAWLER_KEY)
+        if pop_task is not None:
+            task = json.loads(pop_task)
+
+            task_product_url = task['weburl']
+            task_review_counts = int(task['comments_count'])
+            task_task_id = int(task['task_id'])
+            task_crawler_type = int(task['platform'])
+            task_ratings = list(map(int, task['ratings'].split(',')))
+            task_this_new_product_ids = list(map(int, task['product_ids'].split(',')))
+
+            if task_crawler_type == CrawlerType.ZAZZLE.value:
+                task_crawler_type = CrawlerType.ZAZZLE
+            else:
+                task_crawler_type = CrawlerType.VISTA
+
+            ReviewCrawler(
+                product_url=task_product_url,
+                review_counts=task_review_counts, task_id=task_task_id, crawler_type=task_crawler_type, ratings=task_ratings,
+                this_new_product_ids=task_this_new_product_ids).get_reviews()

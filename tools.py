@@ -2,6 +2,7 @@ import logging
 import math
 import os
 import re
+import time
 from enum import Enum
 
 import requests
@@ -74,6 +75,7 @@ def request_resolver(url, params=None, header=None, cookies=None):
             retry_count += 1
             logging.error(msg, exc_info=True)
             logging.error(e, exc_info=True)
+            time.sleep(5)
 
         if retry_count == 3:
             raise RequestError(msg)

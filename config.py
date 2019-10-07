@@ -5,6 +5,12 @@ PASSWORD = 'thisnew2019'
 DB = 'ThisNew_EMERGENCY'
 CHARSET = 'utf8mb4'
 
+# redis地址
+REDIS_ADDR = '127.0.0.1'
+REDIS_PORT = '6379'
+# redis 爬虫键值
+REDIS_CRAWLER_KEY = 'CRAWLER_REVIEWS'
+
 # 爬虫customer_id, 用于填写在插入oc_review表的customer_id字段
 CRAWLER_ID = 53
 
