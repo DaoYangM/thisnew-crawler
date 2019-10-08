@@ -1,15 +1,16 @@
+# coding=utf-8
 import json
 
 import redis
 
-from config import REDIS_ADDR, REDIS_PORT, REDIS_CRAWLER_KEY
-from database import CrawlerDB
-from error import RequestError, ReviewListError
+from reviews.config import REDIS_ADDR, REDIS_PORT, REDIS_CRAWLER_KEY
+from reviews.database import CrawlerDB
+from reviews.error import RequestError, ReviewListError
 
 # 获得日志对象
-from tools import get_logging, CrawlerType
-from vista_reviews import VistaProduct, VistaReview
-from zazzle_reviews import ZazzleProduct, ZazzleReview
+from reviews.tools import get_logging, CrawlerType
+from reviews.vista_reviews import VistaProduct, VistaReview
+from reviews.zazzle_reviews import ZazzleProduct, ZazzleReview
 
 logging = get_logging()
 
@@ -56,17 +57,16 @@ class ReviewCrawler:
             type_product_cls: Product类ZazzleProduct, VistaProduct
             type_review_cls: Review类ZazzleReview, VistaReview
         """
-
-        # 初始化product
-        product = type_product_cls(self.__product_url)
-
-        # 通过商品页, 获得api请求参数
-        review_api_params = product.get_review_api_params()
-
-        # 上一步拿到的参数, 初始化review对象
-        type_review = type_review_cls(review_api_params)
-
         try:
+            # 初始化product
+            product = type_product_cls(self.__product_url)
+
+            # 通过商品页, 获得api请求参数
+            review_api_params = product.get_review_api_params()
+
+            # 上一步拿到的参数, 初始化review对象
+            type_review = type_review_cls(review_api_params)
+
             review_list = list()
 
             for rating in self.__ratings:
@@ -97,6 +97,7 @@ if __name__ == '__main__':
 
     while r.llen(REDIS_CRAWLER_KEY) > 0:
         pop_task = r.lpop(REDIS_CRAWLER_KEY)
+        r.rpush(REDIS_CRAWLER_KEY, pop_task)
         if pop_task is not None:
             task = json.loads(pop_task)
 
