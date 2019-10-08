@@ -8,7 +8,7 @@ DB = 'ThisNew_EMERGENCY'
 CHARSET = 'utf8mb4'
 
 # redis地址
-REDIS_ADDR = '127.0.0.1'
+REDIS_ADDR = 'www.daoyang.design'
 REDIS_PORT = '6379'
 # redis 爬虫键值
 REDIS_CRAWLER_KEY = 'CRAWLER_REVIEWS'

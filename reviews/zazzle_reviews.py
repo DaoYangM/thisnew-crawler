@@ -5,6 +5,8 @@ import datetime
 import re
 import json
 
+import requests
+
 from reviews.config import ZAZZLE_REGEX, ZAZZLE_PAGE_SIZE, ZAZZLE_REVIEW_API, ZAZZLE_HEADER
 from reviews.tools import review_resolver, Review, get_logging, CrawlerType, request_resolver
 
@@ -162,4 +164,4 @@ class ZazzleReview:
                 + ' page_num: ' + str(page_num) + ' page_size:' + str(page_size),
                 exc_info=True
             )
-            raise
+            raise requests.exceptions.RequestException(response)

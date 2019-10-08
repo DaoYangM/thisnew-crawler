@@ -120,11 +120,15 @@ class VistaReview:
             loop_times = review_counts // VISTA_PAGE_SIZE
             remainder = review_counts % VISTA_PAGE_SIZE
             time = 0
-
+            is_done = False
             for _ in range(loop_times):
-                results.extend(self.__get_reviews(time, VISTA_PAGE_SIZE, rating))
+                reviews = self.__get_reviews(time, VISTA_PAGE_SIZE, rating)
+                if len(reviews) < 1:
+                    is_done = True
+                    break
+                results.extend(reviews)
                 time += VISTA_PAGE_SIZE
-            if remainder > 0:
+            if not is_done and remainder > 0:
                 results.extend(self.__get_reviews(time, remainder, rating))
         else:
             results.extend(self.__get_reviews(0, VISTA_PAGE_SIZE, rating))
@@ -172,8 +176,9 @@ class VistaReview:
                     author = review['details']['nickname'] if review['details']['nickname'] else 'anonymous'
                     review_list.append(Review(text=text, rating=rating, date_add=date_add, author=author))
 
-                logging.info("  rating: " + str(rating) +
-                             "  page_num: " + str(page_num) + ", review_list: " + str(len(review_list)))
+                if len(review_list) > 0:
+                    logging.info("  rating: " + str(rating) +
+                                 "  page_num: " + str(page_num) + ", review_list: " + str(len(review_list)))
             return review_list
 
         else:
@@ -183,4 +188,4 @@ class VistaReview:
                     page_num) + ' page_size:' + str(page_size),
                 exc_info=True
             )
-            raise
+            raise requests.exceptions.RequestException(response)
