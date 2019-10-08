@@ -82,8 +82,7 @@ class ReviewCrawler:
 
             # 如果爬到的数量大于this_new_product_ids的长度, 分段插入数据库
             if len(review_list) > len(self.__this_new_product_ids):
-                CrawlerDB.insert_reviews(review_list=review_list, thisnew_product_ids=self.__this_new_product_ids)
-                CrawlerDB.update_crawler_status_success(self.__task_id)
+                CrawlerDB.insert_reviews(review_list=review_list, thisnew_product_ids=self.__this_new_product_ids, task_id=self.__task_id)
             else:
                 raise ReviewListError('review list less than thisnew product ids')
 

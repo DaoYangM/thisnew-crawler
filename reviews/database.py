@@ -6,7 +6,9 @@ from reviews import config
 from DBUtils.PooledDB import PooledDB
 from pymysql.cursors import DictCursor
 
-from reviews.tools import chunks, CrawlerStatus
+from reviews.tools import chunks, CrawlerStatus, get_logging
+
+logging = get_logging()
 
 
 class Mysql(object):
@@ -90,7 +92,7 @@ class Mysql(object):
     def begin(self):
         """开启事务"""
 
-        self._conn.autocommit(0)
+        self._conn.begin()
 
     def end(self):
         """结束事务"""
@@ -100,84 +102,94 @@ class Mysql(object):
     def dispose(self):
         """释放连接池资源"""
 
-        self._conn.commit()
         self._cursor.close()
         self._conn.close()
 
+    def commit(self):
+        self._conn.commit()
+
+    def rollback(self):
+        """撤销"""
+        self._conn.rollback()
+
+    @property
+    def cursor(self):
+        return self._cursor
+
 
 class CrawlerDB:
-    @staticmethod
-    def __update_crawler_status(task_id, crawler_status):
-        """
-        更行爬虫状态的通用方法
-        Args:
-            task_id: 主键
-            crawler_status: 爬虫状态枚举CrawlerStatus
-        """
-
-        mysql = Mysql()
-        if crawler_status == CrawlerStatus.SUCCESS:
-            mysql.insert("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
-                         (CrawlerStatus.SUCCESS.value, task_id))
-        elif crawler_status == CrawlerStatus.FAIL:
-            mysql.insert("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
-                         (CrawlerStatus.FAIL.value, task_id))
 
     @staticmethod
-    def update_crawler_status_success(task_id):
+    def update_crawler_status_success(cursor, task_id):
         """
-        跟新爬虫状态为成功
+        更新爬虫状态为成功
         Args:
+            cursor: mysql游标
             task_id: 主键
         """
 
-        CrawlerDB.__update_crawler_status(task_id, CrawlerStatus.SUCCESS)
+        cursor.execute("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
+                      (CrawlerStatus.SUCCESS.value, task_id))
 
     @staticmethod
     def update_crawler_status_fail(task_id):
         """
-        跟新爬虫状态为失败
+        更新爬虫状态为失败
         Args:
             task_id: 主键
         """
+        mysql = Mysql()
+        mysql.cursor.executemany()
 
-        CrawlerDB.__update_crawler_status(task_id, CrawlerStatus.FAIL)
+        mysql.insert("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
+                     (CrawlerStatus.FAIL.value, task_id))
 
     @staticmethod
-    def clean_previous_reviews(thisnew_product_id):
+    def clean_previous_reviews(cursor, thisnew_product_id):
         """
         清楚此product_id之前的评论, 避免插入重复评论
         Args:
+            cursor: mysql游标
             thisnew_product_id: oc_product 主键id
         """
 
-        mysql = Mysql()
-        mysql.insert("DELETE FROM oc_review WHERE customer_id = %s AND product_id = %s",
-                     (config.CRAWLER_ID, thisnew_product_id))
+        cursor.execute("DELETE FROM oc_review WHERE customer_id = %s AND product_id = %s",
+                       (config.CRAWLER_ID, thisnew_product_id))
 
     @staticmethod
-    def insert_reviews(review_list, thisnew_product_ids):
+    def insert_reviews(review_list, thisnew_product_ids, task_id):
         """
         批量插入爬取的评论, 按照len(thisnew_product_ids)的长度将review_list拆分成对应分组
         Args:
             review_list: 评论list
             thisnew_product_ids: thisnew商品id list
+            task_id: 任务id
         """
 
         review_list = chunks(review_list, len(thisnew_product_ids))
-        for index, thisnew_product_id in enumerate(thisnew_product_ids):
-            values = list()
-            mysql = Mysql()
+        mysql = Mysql()
+        mysql.begin()
+        try:
+            for index, thisnew_product_id in enumerate(thisnew_product_ids):
+                values = list()
 
-            CrawlerDB.clean_previous_reviews(thisnew_product_id)
+                CrawlerDB.clean_previous_reviews(mysql.cursor, thisnew_product_id)
 
-            for review in review_list[index]:
-                value = (
-                    thisnew_product_id, config.CRAWLER_ID, review.author, review.text, review.rating, 1,
-                    review.date_add,
-                    review.date_add)
-                values.append(value)
+                for review in review_list[index]:
+                    value = (
+                        thisnew_product_id, config.CRAWLER_ID, review.author, review.text, review.rating, 1,
+                        review.date_add,
+                        review.date_add)
+                    values.append(value)
 
-            mysql.insert_many(
-                "INSERT INTO oc_review (product_id, customer_id, author, text, rating, status, date_added, date_modified) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
-                values)
+                mysql.cursor.executemany(
+                    "INSERT INTO oc_review (product_id, customer_id, author, text, rating, status, date_added, date_modified) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
+                    values)
+
+            CrawlerDB.update_crawler_status_success(mysql.cursor, task_id)
+            mysql.commit()
+        except Exception as e:
+            logging.error(e, exc_info=True)
+            mysql.rollback()
+        finally:
+            mysql.dispose()
