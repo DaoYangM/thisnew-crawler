@@ -10,7 +10,7 @@ from enum import Enum
 
 import requests
 
-from reviews.config import LOG_PATH
+from reviews.config import LOG_PATH, LOG_FILENAME
 from reviews.error import RequestError
 
 ZAZZLE_PATTERN = re.compile('zazzle', flags=re.I)
@@ -21,7 +21,7 @@ RETRY_COUNT = 3
 
 # 初始化日志对象
 # logging.basicConfig(filename=LOG_FILENAME, filemode='a', level=logging.INFO,
-#                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#                     format='%(asctime)s - %(levelname)s - %(message)s')
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 

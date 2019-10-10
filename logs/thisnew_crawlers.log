@@ -498,3 +498,815 @@ Traceback (most recent call last):
   File "/Users/deyangye/PycharmProjects/crawler_reviews/venv/lib/python3.7/site-packages/requests/utils.py", line 945, in check_header_validity
     "bytes, not %s" % (name, value, type(value)))
 requests.exceptions.InvalidHeader: Value for header {upgrade-insecure-requests: 1} must be of type str or bytes, not <class 'int'>
+2019-10-09 17:41:27,045 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,045 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,045 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,045 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,045 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,046 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,046 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,046 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,046 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,053 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,055 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,055 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,058 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,062 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,064 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,067 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,073 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,080 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,083 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:27,084 - root - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 17:41:28,423 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,429 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,443 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,490 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,500 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,515 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,581 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,599 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,605 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,611 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,617 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,625 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,635 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,643 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,650 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,664 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,684 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,807 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,820 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:28,828 - root - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 17:41:29,385 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,410 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,425 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,446 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,476 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,477 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,516 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,556 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,583 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,583 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,644 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,668 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,761 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,856 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,857 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,973 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:29,986 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:30,013 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:30,013 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:30,079 - root - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 17:41:30,229 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,288 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,366 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,471 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,485 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,515 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,542 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,545 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,601 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,605 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,749 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,764 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,782 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,796 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,859 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,902 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:30,905 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,948 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,952 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,974 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:30,989 - root - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 17:41:31,075 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,110 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,116 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,120 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,155 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,157 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,160 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,164 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,169 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,310 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,336 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,338 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,487 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,588 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,623 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,626 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,755 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,826 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:41:31,934 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,478 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,865 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,875 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,879 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,881 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,896 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:01,898 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,168 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,177 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,178 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,182 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,184 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,184 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,265 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,519 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,522 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,679 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,683 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,703 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:02,717 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,433 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,439 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,606 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,611 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,617 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,696 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:32,896 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,322 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,325 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,327 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,329 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,330 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,330 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,332 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,332 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,332 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,495 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,497 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,500 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:42:33,699 - root - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 17:43:02,456 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,457 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,621 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,622 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,624 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,703 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:02,901 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,336 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,337 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,338 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,338 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,339 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,340 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,340 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,340 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,341 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,500 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,503 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,503 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 17:43:03,706 - root - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:38:58,946 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,946 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,949 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,955 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,958 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,959 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,963 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,964 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,967 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,967 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,970 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,970 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,974 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,977 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,979 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,980 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,983 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,985 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,987 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:38:58,988 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:39:01,917 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:01,926 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:01,933 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:01,939 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:01,943 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,005 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,571 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,576 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,580 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,587 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,592 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,603 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,606 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,615 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,624 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,634 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,636 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,645 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,647 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:02,786 - INFO - {ZAZZLE API PARAMS} -> [product_type]: mojo_throwpillow, [root_product_id]: 0
+2019-10-09 18:39:03,445 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,497 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,528 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,553 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,558 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,566 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,577 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,663 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,688 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,688 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,696 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,700 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,702 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,708 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,711 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,713 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:03,780 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:04,065 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:04,124 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:04,158 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:39:04,702 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,738 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,761 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,791 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,814 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,850 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,855 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,862 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,945 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,980 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,982 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,996 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,999 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:04,999 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,001 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,015 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,017 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,320 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,461 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,462 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,477 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:39:05,485 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,485 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,505 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,608 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,645 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,774 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,778 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,781 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,789 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:05,796 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,011 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,016 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,016 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,018 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,019 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,023 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,179 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,256 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:06,357 - ERROR - [FORBIDDEN] request error code: 403 retry: 0 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,055 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,147 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,149 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,212 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,255 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,358 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,459 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,949 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,954 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,957 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,957 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,957 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,958 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,958 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:36,960 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:37,100 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:37,112 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:37,115 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:37,129 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:39:37,260 - ERROR - [FORBIDDEN] request error code: 403 retry: 1 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,193 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,195 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,196 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,196 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,199 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,199 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:07,269 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,187 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,195 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,197 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,199 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,199 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,199 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,205 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,208 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,208 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,209 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,211 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,211 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:08,215 - ERROR - [FORBIDDEN] request error code: 403 retry: 2 times url: https://www.zazzle.com/svc/z3/reviews/get?rating=5&client=js&rootProductId=0&pageNum=3&productType=mojo_throwpillow&pageSize=17&cacheDefeat=1569293331342&cv=1&sortBy=RatingDesc
+Traceback (most recent call last):
+  File "/Users/deyangye/PycharmProjects/crawler_reviews/reviews/tools.py", line 74, in request_resolver
+    raise requests.exceptions.RequestException(response)
+RequestException: <Response [403]>
+2019-10-09 18:40:37,229 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,230 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,231 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,231 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,231 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,231 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:37,273 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,235 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,235 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,235 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,236 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,236 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,237 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,237 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,237 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,238 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,238 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,239 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,239 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:40:38,239 - ERROR - [SETTING FAIL] task_id: 15 set crawler status fail!
+2019-10-09 18:53:46,205 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/2020_coconut_rice_bear_calendar-158932973328968543, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:53:47,639 - INFO - {ZAZZLE API PARAMS} -> [product_type]: zazzle_calendar, [root_product_id]: 158932973328968543
+2019-10-09 18:53:49,403 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:53:51,181 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:53:52,136 - INFO -   rating: 5  page_num: 3, review_list: 17
+2019-10-09 18:53:52,137 - INFO - total reviews count: 217
+2019-10-09 18:53:56,353 - INFO -  [crawler_type]: CrawlerType.ZAZZLE, [product_url]: https://www.zazzle.com/2020_coconut_rice_bear_calendar-158932973328968543, [review_counts]: 217, [task_id]: 15, [ratings]: [5, 4, 3, 2, 1], [this_new_product_ids]: [40]
+2019-10-09 18:53:57,611 - INFO - {ZAZZLE API PARAMS} -> [product_type]: zazzle_calendar, [root_product_id]: 158932973328968543
+2019-10-09 18:53:58,871 - INFO -   rating: 5  page_num: 1, review_list: 100
+2019-10-09 18:53:59,993 - INFO -   rating: 5  page_num: 2, review_list: 100
+2019-10-09 18:54:01,191 - INFO -   rating: 5  page_num: 3, review_list: 17
+2019-10-09 18:54:01,192 - INFO - total reviews count: 217

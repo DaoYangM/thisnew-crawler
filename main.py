@@ -78,16 +78,19 @@ class ReviewCrawler:
                         type_review.get_reviews(rating=rating,
                                                 review_counts=self.__review_counts - len(review_list)))
 
-            logging.info('total reviews count: ' + str(len(review_list)))
+            logging.info('[RESULT] reviews count: ' + str(len(review_list)))
 
             # 如果爬到的数量大于this_new_product_ids的长度, 分段插入数据库
             if len(review_list) > len(self.__this_new_product_ids):
                 CrawlerDB.insert_reviews(review_list=review_list, thisnew_product_ids=self.__this_new_product_ids, task_id=self.__task_id)
+                logging.info('[SUCCESS] task_id = ' + str(self.__task_id))
             else:
                 raise ReviewListError('review list less than thisnew product ids')
 
-        except (RequestError, ReviewListError):
+        except (RequestError, ReviewListError, Exception) as e:
+
             CrawlerDB.update_crawler_status_fail(self.__task_id)
+            logging.error('[FAIL] task_id: ' + str(self.__task_id) + ', [REASON] set crawler status fail! ' + e.message, exc_info=True)
 
 
 if __name__ == '__main__':
@@ -96,7 +99,7 @@ if __name__ == '__main__':
 
     while r.llen(REDIS_CRAWLER_KEY) > 0:
         pop_task = r.lpop(REDIS_CRAWLER_KEY)
-        r.rpush(REDIS_CRAWLER_KEY, pop_task)
+        # r.rpush(REDIS_CRAWLER_KEY, pop_task)
         if pop_task is not None:
             task = json.loads(pop_task)
 

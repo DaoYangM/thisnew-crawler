@@ -8,6 +8,7 @@ import json
 import requests
 
 from reviews.config import VISTA_REGEX, VISTA_PAGE_SIZE, VISTA_REVIEW_API, VISTA_HEADER
+from reviews.error import RequestParamError
 from reviews.tools import review_resolver, Review, get_logging, CrawlerType, request_resolver
 
 # 获得日志对象
@@ -61,10 +62,9 @@ class VistaProduct:
 
             return VistaReviewApiParams(vista_product_id, api_key, locale, merchant_id)
         else:
-            logging.error(
-                'Getting product error product url: ' + self.product_url,
-                exc_info=True
-            )
+            msg = '[Getting API PARAM] error product url: ' + self.product_url
+            logging.error(msg)
+            raise RequestParamError(msg)
 
 
 class VistaReviewApiParams:
@@ -183,7 +183,7 @@ class VistaReview:
 
         else:
             logging.error(
-                'Getting reviews error vista_product_id: ' + self.__vista_product_id + ' merchant_id: ' + self.__merchant_id
+                '[Getting REVIEWS] error vista_product_id: ' + self.__vista_product_id + ' merchant_id: ' + self.__merchant_id
                 + ' api_key: ' + self.__api_key + ' locale: ' + self.__locale + ' page_num: ' + str(
                     page_num) + ' page_size:' + str(page_size),
                 exc_info=True

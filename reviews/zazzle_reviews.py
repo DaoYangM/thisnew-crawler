@@ -8,6 +8,7 @@ import json
 import requests
 
 from reviews.config import ZAZZLE_REGEX, ZAZZLE_PAGE_SIZE, ZAZZLE_REVIEW_API, ZAZZLE_HEADER
+from reviews.error import RequestParamError
 from reviews.tools import review_resolver, Review, get_logging, CrawlerType, request_resolver
 
 # 获得日志对象
@@ -46,10 +47,9 @@ class ZazzleProduct:
                 '{ZAZZLE API PARAMS} -> [product_type]: ' + product_type + ', [root_product_id]: ' + product_id)
             return ZazzleReviewApiParams(product_type, product_id)
         else:
-            logging.error(
-                'Getting product error product url: ' + self.product_url,
-                exc_info=True
-            )
+            msg = '[Getting API PARAM] error product url: ' + self.product_url
+            logging.error(msg)
+            raise RequestParamError(msg)
 
 
 class ZazzleReviewApiParams:
@@ -160,7 +160,7 @@ class ZazzleReview:
 
         else:
             logging.error(
-                'Getting reviews error product_type: ' + self.__product_type + ' root_product_id: ' + self.__root_product_id
+                '[Getting REVIEWS] error product_type: ' + self.__product_type + ' root_product_id: ' + self.__root_product_id
                 + ' page_num: ' + str(page_num) + ' page_size:' + str(page_size),
                 exc_info=True
             )

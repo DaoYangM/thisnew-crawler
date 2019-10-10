@@ -7,10 +7,10 @@ from reviews.tools import CrawlerType
 
 
 def multi():
-    task_product_url = 'https://www.zazzle.com/pd/spp/pt-mojo_throwpillow?fabric=poly&amp;style=16x16'
-    task_review_counts = 217
+    task_product_url = 'http://vistaprint.com/marketing-materials/pens'
+    task_review_counts = 10
     task_task_id = 15
-    task_crawler_type = CrawlerType.ZAZZLE
+    task_crawler_type = CrawlerType.VISTA
     task_ratings = [5, 4, 3, 2, 1]
     task_this_new_product_ids = [40]
     ReviewCrawler(
@@ -22,5 +22,5 @@ def multi():
 
 if __name__ == '__main__':
 
-    for i in range(20):
+    for i in range(1):
         threading.Thread(target=multi, name='test' + str(i)).start()

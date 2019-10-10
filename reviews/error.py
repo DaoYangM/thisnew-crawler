@@ -16,6 +16,13 @@ class RequestError(CrawlerError):
         super(RequestError, self).__init__(msg)
 
 
+class RequestParamError(CrawlerError):
+    """正则获取不到api参数时抛出此异常"""
+
+    def __init__(self, msg):
+        super(RequestParamError, self).__init__(msg)
+
+
 class ReviewListError(CrawlerError):
     """获取的评论数量少于thisnew_product_ids时抛出此异常"""
 

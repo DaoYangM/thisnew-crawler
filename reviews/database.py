@@ -119,6 +119,9 @@ class Mysql(object):
 
 class CrawlerDB:
 
+    def __init__(self):
+        pass
+
     @staticmethod
     def update_crawler_status_success(cursor, task_id):
         """
@@ -129,7 +132,7 @@ class CrawlerDB:
         """
 
         cursor.execute("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
-                      (CrawlerStatus.SUCCESS.value, task_id))
+                       (CrawlerStatus.SUCCESS.value, task_id))
 
     @staticmethod
     def update_crawler_status_fail(task_id):
@@ -139,7 +142,6 @@ class CrawlerDB:
             task_id: 主键
         """
         mysql = Mysql()
-        mysql.cursor.executemany()
 
         mysql.insert("UPDATE oc_review_catch_task SET task_status = %s WHERE task_id = %s",
                      (CrawlerStatus.FAIL.value, task_id))
