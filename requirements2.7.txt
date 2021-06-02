@@ -13,4 +13,4 @@ PyMySQL==0.9.3
 PySocks==1.7.1
 redis==3.3.8
 requests==2.22.0
-urllib3==1.25.5
+urllib3==1.26.5
